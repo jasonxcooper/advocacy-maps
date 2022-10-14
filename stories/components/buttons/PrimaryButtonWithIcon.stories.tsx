@@ -1,7 +1,5 @@
 import { createMeta } from "stories/utils"
-
-// TODO: move into components directory
-const PrimaryButtonWithIcon = () => <div>TODO</div>
+import { PrimaryButtonWithIcon } from "components/PrimaryButtonWithIcon"
 
 export default createMeta({
   title: "Components/Buttons/PrimaryButtonWithIcon",
